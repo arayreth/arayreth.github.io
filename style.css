@@ -82,6 +82,14 @@ body
     padding: 125px 0px 0px;
     flex-grow: 1;
 }
+.portfolioonbarding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+}
 footer {
     background-color: black;
     color: white;
