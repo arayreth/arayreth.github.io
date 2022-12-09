@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url(‘/fonts/Roboto-Regular.woff2’) format(‘woff2’),
+		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 0 auto;
+}
+.header{
+    margin-top: 12px;
+    text-align: center;   
+}    
+.logo{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+}
+button > img,
+button > span {
+  vertical-align: middle;
+}
+button span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+button {
+    width: 800px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    button {
+      width: 175 px;
+      height: 35px;
+    }
+  }
+.links{
+    text-align: center;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}  
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+}
