@@ -18,15 +18,21 @@ body
 }
 .content{
     flex: 1 0 auto;
+    align-items: center;
+    text-align: center;
 }
-.header{
+header{
     margin-top: 12px;
-    text-align: center;   
-}    
+    text-align: center;
+}
 .logo{
-    width: 100px;
-    height: 100px; 
+    margin-top: 5px;
     border-radius: 50%;
+    border-color: black;
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
 }
 button > img,
 button > span {
@@ -37,34 +43,36 @@ button span{
     font-weight: bold;
     margin-left: 10px;
 }
-button {
-    width: 800px;
-    height: 50px;
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 600px) {
-    button {
-      width: 175 px;
-      height: 35px;
-    }
-  }
-.links{
-    text-align: center;;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+button{
+    min-width: 50%;
+    max-width: 90%;
+    min-height: 40%;
+    max-height: 80%;
     margin-bottom: 10px;
 }
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.links{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+}
 .icons{
-    width: 50px;
-    height: 50px;
-}  
+    min-width: 25px;
+    max-width: 50px;
+    min-height: 25px;
+    max-height: 50px;
+}
 footer{
+    flex: 0 0 auto;
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    flex-shrink: 0;
 }
