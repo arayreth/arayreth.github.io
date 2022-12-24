@@ -24,6 +24,7 @@ footer {
 	color: white;
 	text-align: center;
 	padding: 16px;
+	margin-top: 30px;
 }
 
 .logo {
@@ -32,9 +33,28 @@ footer {
 	height: 512px
 }
 
+.my-tools p {
+	margin-top: 8px;
+}
+
 .contact-me {
 	text-align: center;
 	padding-bottom: 7px;
+	padding-top: 60px;
+	color: black;
+}
+
+.tool_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.tool_list .tool {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 4px;
 }
 
 .bavarder {
@@ -58,28 +78,35 @@ footer {
 	border-style: solid;
 }
 
-.animation-with-logo {
+.landing_section {
 	text-align: center;
-	padding-top: 10px;
+	height: calc(100vh - 52px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.landing_section .wrapper {
+	padding-bottom: 30px;
+}
+
+.landing_section h1 {
 	padding-bottom: 10px;
 }
 
-.animation-with-logo h1 {
-	padding-bottom: 10px;
-}
-
-.introduce-text {
-	padding-top: 10px;
+.landing_section p {
+	padding-top: 25px;
 	font-size: 40px;
 }
 
-.my-work {
+.my_work {
+	margin-top: 60px;
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 60px;
 }
 
-.my-work h1 {
+.my_work h1 {
 	padding-bottom: 10px;
 }
 
@@ -101,19 +128,26 @@ footer {
 	padding-bottom: 5px;
 }
 
-.who-i-am {
+.who_am_i {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.who-i-am h1 {
+.who_am_i h1 {
 	padding-bottom: 10px;
+}
+
+.who_am_i p {
+	padding-top: 20px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .my-tools {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 60px;
 	padding-bottom: 10px;
 }
 
@@ -127,6 +161,11 @@ footer {
 	margin-right: 0px;
 }
 
+ul {
+	padding: 16px;
+	text-align: center;
+}
+
 li {
 	text-align: right;
 	text-decoration: none;
@@ -138,24 +177,14 @@ li {
 }
 
 li a {
+	font-size: 16px;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 li a:hover {
-	color: red;
-}
-
-li a:active {
-	color: red;
-}
-
-li a:visited {
-	color: red;
-}
-
-li a:link {
-	color: red;
+	color: #0099ff;
+	text-decoration: underline;
 }
 
 .tools {
@@ -177,48 +206,54 @@ li a:link {
 	border-style: solid;
 }
 
-.b-project-1 {
+.landing_separator {
+	border-top: 1.3px solid black;
+	margin-bottom: 60px;
+}
+
+.whoami_separator {
+	border-top: 1.3px solid black;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+}
+
+.projects .box {
+	border-radius: 6px;
+	border: 1.3px solid rgb(190, 190, 190);
+	padding: 16px;
+}
+
+.projects .box .title {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.projects .box button {
+	width: 100%;
+	border-radius: 5px;
 	text-align: center;
 	cursor: pointer;
-	width: 300px;
 	background-color: #0099ff;
 	color: white;
 	border: none;
-	padding: 10px 20px;
+	padding: 12px 20px;
 	font-size: 16px;
-	border-radius: 4px;
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	transition: all 0.3s ease;
-	border-radius: 5%;
+	transition: 0.3s;
+	margin-top: 13px;
 }
 
-.b-project-1:hover {
-	background-color: #0066cc;
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
-	transform: translateY(-1px);
-	border-radius: 5%;
+.projects .box button:hover {
+	background: #0082d8;
 }
 
-.box {
-	display: inline-block;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	background-color: white;
-	width: 300px;
-	height: 400px;
-	margin: 5px;
-	border-radius: 5%;
-	border: 2px solid black;
-}
-
-.box p {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 2px;
-	margin-right: 2px;
-}
-
-.box h1 {
-	text-align: center;
+.projects .box p {
+	margin-top: 10px;
 }
