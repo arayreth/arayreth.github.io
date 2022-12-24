@@ -1,2 +1,6 @@
 # arayreth.github.io
-[Visit](http://rayreth.me/)
+🔗 - [Visit the webite](http://rayreth.me/)
+
+## Contributors
+- [arayreth](https://github.com/arayreth)
+- [axorax](https://github.com/axorax)
