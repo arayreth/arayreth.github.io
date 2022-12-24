@@ -77,7 +77,7 @@ footer {
 }
 
 .social_media a {
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
 .social_media a:hover {
@@ -139,6 +139,10 @@ footer {
 	margin-left: 0px;
 	margin-right: 10px;
 	padding-bottom: 5px;
+}
+
+.w_50px {
+	width: 50px;
 }
 
 .who_am_i {
@@ -274,4 +278,8 @@ li a:hover {
 
 .projects .box p {
 	margin-top: 10px;
+}
+
+.social_media img {
+	width: 50px;
 }
