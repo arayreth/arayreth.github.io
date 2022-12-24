@@ -44,6 +44,10 @@ footer {
 	color: black;
 }
 
+.contact-me p {
+	margin-top: 10px;
+}
+
 .tool_list {
 	display: flex;
 	flex-wrap: wrap;
@@ -66,9 +70,18 @@ footer {
 	margin-right: 10px;
 }
 
-.social-media {
+.social_media {
 	text-align: center;
 	padding: 10px;
+	margin-top: 20px;
+}
+
+.social_media a {
+	padding: 0 20px;
+}
+
+.social_media a:hover {
+	opacity: 0.5;
 }
 
 .animation-logo {
@@ -194,6 +207,11 @@ li a:hover {
 	margin-left: 0px;
 	margin-right: 10px;
 	padding-bottom: 5px;
+}
+
+.tool:hover {
+	cursor: pointer;
+	background: rgb(245, 245, 245);
 }
 
 .project-1 {
