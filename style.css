@@ -1,194 +1,224 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
+
 @font-face {
 	font-family: 'Roboto';
 	src: url(‘/fonts/Roboto-Regular.woff2’) format(‘woff2’),
 		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
 }
-body
-{
-    font-family: 'Roboto', sans-serif;
-    background-color: yellow;
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
-header{
-    background-color: black;
-    height: 100px;
-    width: 100%;
+
+header {
+	background-color: black;
+	height: 100px;
+	width: 100%;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 16px;
 }
-.logo{
-    background-color: blue;
-    width: 512px;
-    height: 512px
+
+.logo {
+	background-color: blue;
+	width: 512px;
+	height: 512px
 }
-.contact-me{
-    text-align: center;
-    padding-bottom: 7px;
+
+.contact-me {
+	text-align: center;
+	padding-bottom: 7px;
 }
-.bavarder{
-    text-align: center;
-    padding: auto;
-    margin-bottom: -20px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 10px;
+
+.bavarder {
+	text-align: center;
+	padding: auto;
+	margin-bottom: -20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
 }
-.social-media{
-    text-align: center;
-    padding: 10px;
+
+.social-media {
+	text-align: center;
+	padding: 10px;
 }
-.animation-logo{
-    border-radius: 50%;
-    border-color: white;
-    border-width: 6px;
-    border-style: solid;
+
+.animation-logo {
+	border-radius: 50%;
+	border-color: white;
+	border-width: 6px;
+	border-style: solid;
 }
-.animation-with-logo{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.animation-with-logo {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.animation-with-logo h1{
-    padding-bottom: 10px;
+
+.animation-with-logo h1 {
+	padding-bottom: 10px;
 }
-.introduce-text{
-    padding-top: 10px;
-    font-size: 40px;
+
+.introduce-text {
+	padding-top: 10px;
+	font-size: 40px;
 }
-.my-work{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.my-work {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.my-work h1{
-    padding-bottom: 10px;
+
+.my-work h1 {
+	padding-bottom: 10px;
 }
-.work{
-    text-align: center;
-    margin-bottom: -20px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 10px;
-    padding-bottom: 5px;
+
+.work {
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding-bottom: 5px;
 }
-.me{
-   text-align: center;
-   margin-bottom: -16px;
-   margin-top: 0px;
-   margin-left: 0px;
-   margin-right: 10px;
-   padding-bottom: 5px;
+
+.me {
+	text-align: center;
+	margin-bottom: -16px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding-bottom: 5px;
 }
-.who-i-am{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.who-i-am {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.who-i-am h1{
-    padding-bottom: 10px;
+
+.who-i-am h1 {
+	padding-bottom: 10px;
 }
-.my-tools{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.my-tools {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.badge{
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+
+.badge {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
-li{
-    text-align: right;
-    text-decoration: none;
-    list-style-type: none;
-    align-items: right;
-    display: inline;
-    padding: 5px;
-    margin-top: 10px;
+
+li {
+	text-align: right;
+	text-decoration: none;
+	list-style-type: none;
+	align-items: right;
+	display: inline;
+	padding: 5px;
+	margin-top: 10px;
 }
-li a{
-    text-decoration: none;
-    color: white;
+
+li a {
+	text-decoration: none;
+	color: white;
 }
-li a:hover{
-    color: red;
+
+li a:hover {
+	color: red;
 }
-li a:active{
-    color: red;
+
+li a:active {
+	color: red;
 }
-li a:visited{
-    color: red;
+
+li a:visited {
+	color: red;
 }
-li a:link{
-    color: red;
+
+li a:link {
+	color: red;
 }
-.tools{
-    text-align: center;
-    margin-bottom: -20px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 10px;
-    padding-bottom: 5px;
+
+.tools {
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding-bottom: 5px;
 }
-.project-1{
-    text-align: center;
-    height: 200;
-    Width: 200;
-    display: grid;
-    border-color: black;
-    border-width: 6px;
-    border-style: solid;
+
+.project-1 {
+	text-align: center;
+	height: 200;
+	Width: 200;
+	display: grid;
+	border-color: black;
+	border-width: 6px;
+	border-style: solid;
 }
-.b-project-1{
-    text-align: center;
-    cursor: pointer;
-    width: 300px;
-    background-color: #0099ff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    border-radius: 5%;
+
+.b-project-1 {
+	text-align: center;
+	cursor: pointer;
+	width: 300px;
+	background-color: #0099ff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+	border-radius: 5%;
 }
-.b-project-1:hover{
-        background-color: #0066cc;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
-        transform: translateY(-1px);
-        border-radius: 5%;
+
+.b-project-1:hover {
+	background-color: #0066cc;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+	transform: translateY(-1px);
+	border-radius: 5%;
 }
+
 .box {
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 300px;
-    height: 400px;
-    margin: 5px;
-    border-radius: 5%;
-    border: 2px solid black;
-  }
-  .box p{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-  .box h1{
-    text-align: center;
-  }
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	margin: 5px;
+	border-radius: 5%;
+	border: 2px solid black;
+}
+
+.box p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.box h1 {
+	text-align: center;
+}
