@@ -178,12 +178,12 @@ footer {
 	margin-right: 0px;
 }
 
-ul {
+.menu ul {
 	padding: 16px;
 	text-align: center;
 }
 
-li {
+.menu li {
 	text-align: right;
 	text-decoration: none;
 	list-style-type: none;
@@ -193,13 +193,13 @@ li {
 	margin-top: 10px;
 }
 
-li a {
+.menu li a {
 	font-size: 16px;
 	text-decoration: none;
 	color: black;
 }
 
-li a:hover {
+.menu li a:hover {
 	color: #0099ff;
 	text-decoration: underline;
 }
@@ -282,4 +282,70 @@ li a:hover {
 
 .social_media img {
 	width: 50px;
+}
+
+.about_interests_title {
+	padding: 0;
+	border-top: 1.4px solid #ddd;
+	padding-top: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 16px;
+	text-align: left;
+}
+
+.about_interests {
+	padding-left: 3rem;
+	font-size: 17px;
+}
+
+.about_interests li {
+	margin-bottom: 7px;
+}
+
+.about_landing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about_card {
+	border-radius: 5px;
+	border: 1.4px solid #ddd;
+	width: 35rem;
+	max-width: calc(100% - 2rem);
+}
+
+.about_card h1 {
+	padding: 16px;
+	border-bottom: 1.4px solid #ddd;
+}
+
+.about_card .details {
+	padding: 1rem;
+}
+
+.about_card .details p.last {
+	margin-bottom: 30px;
+}
+
+.about_card .details p {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-bottom: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.about_card .details p span {
+	background: #0088ff;
+	padding: .3rem .7rem;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: .5px;
+	margin-left: 5px;
 }
