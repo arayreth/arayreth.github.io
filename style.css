@@ -1,12 +1,11 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url("/fonts/Robot-Regular.ttf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	src: url(‘/fonts/Roboto-Regular.woff2’) format(‘woff2’),
-		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
 }
 
 body {
@@ -360,4 +359,68 @@ footer {
 .err-msg p{
 	font-size: 1.5rem;
 	font-weight: 600;
+}
+
+.blog_find {
+	margin: 0 2rem 2rem 2rem;
+}
+
+.blog_find h1 {
+	padding-bottom: 1rem;
+	border-bottom: 1.4px solid hwb(0 87% 13%);
+}
+
+.blog_find .wrapper {
+	margin: 1rem 0;
+}
+
+.blog_find .wrapper .box {
+	padding: 1rem;
+	border: 1.4px solid hwb(0 87% 13%);
+}
+
+a {
+	text-decoration: none;
+}
+
+.blog_find .wrapper .box .title {
+	font-size: 23px;
+	color: #4662ff;
+}
+
+.blog_find .wrapper .box .title:hover {
+	text-decoration: underline;
+}
+
+.blog_tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .6rem;
+	margin-top: 1rem;
+}
+
+.blog_tags .tag {
+	border: 1.3px solid hwb(0 87% 13%);
+	color: hwb(0 27% 73%);
+	padding: 6px 9px;
+	min-width: 30px;
+	text-align: center;
+}
+
+.blog {
+	font-size: 17px;
+	margin: 1.5rem 2rem 2rem 2rem;
+}
+
+.blog h1 {
+	text-align: center;
+}
+
+.blog_tags_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.blog ul {
+	margin-left: 2rem;
 }
