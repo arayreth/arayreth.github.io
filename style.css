@@ -29,6 +29,10 @@ footer {
 	margin-top: auto;
 }
 
+footer a {
+	color: #777cff;
+}
+
 .logo {
 	background-color: blue;
 	width: 512px;
