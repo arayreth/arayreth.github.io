@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Roboto';
-	src: url("/fonts/Robot-Regular.ttf");
+	src: url("fonts/Roboto-Regular.ttf");
 }
 
 * {
@@ -382,6 +382,7 @@ footer a {
 .blog_find .wrapper .box {
 	padding: 1rem;
 	border: 1.4px solid hwb(0 87% 13%);
+	margin-bottom: 10px;
 }
 
 a {
