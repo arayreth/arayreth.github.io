@@ -1,6 +1,6 @@
 # arayreth.github.io
 
-🔗 - [Visit the webite](http://rayreth.me/)
+🔗 - [Visit the webite](https://arayreth.github.io)
 
 <br>
 
