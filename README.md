@@ -11,7 +11,7 @@
 # Contributors and credits
 
 - [arayreth](https://github.com/arayreth)
-    * [website](https://rayreth.me/)
+    * [website](https://arayreth.github.io)
     * [youtube](https://www.youtube.com/rayreth)
     * [instagram](https://www.instagram.com/rayreth_hd/)
     * [twitter](https://twitter.com/rayrethyt)
