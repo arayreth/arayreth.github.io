@@ -7,12 +7,19 @@
         <title>Portfolio | Rayreth</title>
         <link rel="shortcut icon" type="image/png" href="images/brand/favicon.png"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script>
+          function myFunction() {
+            const div = document.getElementById('second');
+            div.scrollIntoView({behavior: "smooth"})
+          }
+          </script>
     </head>
     <body>
       <div class="content">
-        <div class="menu">
+      <div class="first">
+  <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html"><u>Home</u></a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
@@ -23,18 +30,16 @@
           <div class="wrapper">
             <img class="animation-logo" src="images/brand/logo_big.png" alt="logo" height="150" width="150">
             <p>Hey ! I'm <strong>Rayreth</strong></p>
-            <img class="scroll-to-see-more" src="images/icons/upside_down.png" alt="scroll to see more" height="50" width="50">
+            <div class="scroll"><button type="button" onclick="myFunction()"><img class="scroll-to-see-more" src="images/icons/upside_down.png" alt="scroll to see more" height="50" width="50"> </button></div>
           </div>
-        </div>
-
-        <div class="landing_separator"></div>
-
+          </div>
+    <div class="second" id="second">
+            <div class="landing_separator"></div>
         <div class="who_am_i">
             <h1 class="title"><img class="me w_50px" src="images/icons/profile.png" alt="me">Who am i ?</h1>
             <p>I'm a 17 years old french student in computer science.<br>My center of interest are code, artificial intelligence,new technology and writing.</p>
         </div>
-
-
+    
         <div class="my_work">
             <h1><img class="work w_50px" src="images/icons/work.png" alt="work">Want to see my work ?</h1>
             <p>Here are my projects !</p>

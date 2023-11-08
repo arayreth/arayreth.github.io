@@ -496,8 +496,16 @@ a {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.scroll-to-see-more {
-	text-align: center;
+.scroll {
 	margin-bottom: -90px;
-	margin-top: 90px;
+	margin-top: 80px;
+}
+.scroll button{
+	border: none;
+	color: white;
+	background-color: white;
+}
+.scroll button:hover{
+	opacity: 0.5;
+	cursor: pointer;
 }
