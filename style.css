@@ -496,6 +496,12 @@ a {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+.photo_grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .scroll {
 	margin-bottom: -90px;
 	margin-top: 80px;
