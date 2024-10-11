@@ -232,7 +232,7 @@ footer a {
 }
 
 .tool:hover {
-	cursor: pointer;
+	cursor: default;
 	background: rgb(245, 245, 245);
 }
 
@@ -583,3 +583,4 @@ a {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
