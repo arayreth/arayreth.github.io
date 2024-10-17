@@ -574,13 +574,7 @@ a {
 .back_link a:hover {
     text-decoration: underline;
 }
-.photo_albin {
+.my_resume h1{
 	text-align: center;
-	display: block; 
-	margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
