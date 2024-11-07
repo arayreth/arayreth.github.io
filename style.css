@@ -161,6 +161,7 @@ footer a {
 
 .w_50px {
 	width: 50px;
+	margin-right: 10px;
 }
 
 .who_am_i {
@@ -577,4 +578,27 @@ a {
 .my_resume h1{
 	text-align: center;
 	margin-bottom: 10px;
+}
+.b_resume{
+	background: #0088ff;
+	font-family: 'Roboto', sans-serif;
+	padding: .3rem .7rem;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: .5px;
+	margin-left: 190px;
+	margin-bottom: 15px;
+}
+.b_resume button:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.my-skills {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.img_skills{
+	padding-top: 10px;
 }
